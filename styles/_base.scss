@@ -1,0 +1,24 @@
+
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  &__canvas {
+    background: rgb(37,48,110);
+    background: -moz-linear-gradient(0deg, rgba(37,48,110,1) 0%, rgba(13,217,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(37,48,110,1) 0%, rgba(13,217,255,1) 100%);
+    background: linear-gradient(0deg, rgba(37,48,110,1) 0%, rgba(13,217,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#25306e",endColorstr="#0dd9ff",GradientType=1);
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+}
